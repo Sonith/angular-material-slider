@@ -3,8 +3,9 @@
 This directive let you create a slider element if you're using angular material framework.
 I hope this will save you a couple of minutes.
 
-## Requirements
-- ngAnimate : If your project doesn't use ngAnimate, just fork this remove those lines and you'll be good. Although, I strongly recommend that you add it.
+## Dependencies
+None
+
 
 
 Load this directive with the following code:
