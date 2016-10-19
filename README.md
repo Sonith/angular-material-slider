@@ -32,7 +32,8 @@ Use the directive in your HTML files with the following code:
 	if you change this, remember to update the css, both background-color and color in '.slide-animation .slider'.
 - false-color (color)
 
-Take a look at index.html for a demo.
+Take a look at index.html or [a link](https://sonith.github.io/angular-material-slider/) for a demo.
+
 
 ## License
 You may use it however you want.
