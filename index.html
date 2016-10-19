@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>example</title>
+		<meta name="description" content="example">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.1/angular-material.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="example.css">
+		<style type="text/css">
+			[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {display: none !important;}
+		</style>
+	</head>
+
+	<body ng-app="example" ng-cloak>
+		<div layout="column">
+			<p layout layout-align="center">
+				<m-slider class="slide-animation" true-color="red" false-color="gray" flex="25" l-text="Music" r-text="Movie" ng-model="selection" ng-change="angular.noop()"></m-slider>
+			</p>
+			<p layout layout-align="center">
+				{{selection}}
+			</p>
+		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-animate.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.1/angular-material.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-aria.min.js"></script>
+		<script src="angular-material-slider.js"></script>
+		<script src="example.js"></script>
+	</body>
+</html>
